@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131c">
+  <meta name="description" content="A National 5 Computing Science arcade challenge. Revise, repair Python code and build eight Pygame games in Thonny.">
+  <title>Code Arcade · National 5 Computing Science</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/boot.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to activity</a>
+  <header class="topbar">
+    <a href="#" class="brand" id="home-link" aria-label="Code Arcade home"><span class="brand-mark" aria-hidden="true">&gt;_</span><span>CODE<span class="brand-light">ARCADE</span><small>NATIONAL 5 · COMPUTING SCIENCE</small></span></a>
+    <div class="top-actions"><span id="lesson-timer" class="timer" aria-live="off">Outside lesson time</span><button id="sound-toggle" class="icon-button" type="button" aria-label="Mute sound" aria-pressed="false"><span aria-hidden="true">♫</span><span id="sound-label">Sound on</span></button></div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section id="boot-status" class="gate-panel" role="status">
+      <h1>Opening Code Arcade…</h1>
+      <p>If this message stays here, check that the <code>js</code>, <code>css</code>, <code>assets</code> and <code>games</code> folders are beside <code>index.html</code>.</p>
+    </section>
+  </main>
+  <footer><span>Built to play. Made with Python.</span><span>Session only · No progress saved</span></footer>
+  <div id="announcer" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+  <div id="effects" aria-hidden="true"></div>
+  <dialog id="teacher-dialog" aria-labelledby="teacher-title">
+    <form id="teacher-form"><div class="dialog-head"><h2 id="teacher-title">Teacher demonstration</h2><button type="button" id="teacher-close" class="icon-button" aria-label="Close teacher mode">×</button></div><p>Enter your classroom PIN to view all eight complete programs. This is a casual access barrier, not secure authentication.</p><label for="teacher-pin">Teacher PIN</label><input id="teacher-pin" type="password" inputmode="numeric" maxlength="4" autocomplete="off" required><p id="teacher-feedback" class="feedback" role="status"></p><button class="button primary" type="submit">Open demonstration mode</button></form>
+  </dialog>
+  <noscript><p class="noscript">Enable JavaScript to use Code Arcade. It runs entirely in your browser.</p></noscript>
+</body>
+</html>
